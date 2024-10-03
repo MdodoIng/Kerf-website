@@ -18,7 +18,7 @@ const OurPhilosophy = ({ data }: { data: HomePageType }) => {
         <SectionDescription className="mt-4 whitespace-break-spaces">
           {isData.description}
         </SectionDescription>
-        <NormalBtn href={`/${isData.buttonLink}`} className="mt-5 max-w-max">
+        <NormalBtn href={isData.buttonLink} className="mt-5 max-w-max">
           {isData.buttonText}
         </NormalBtn>
       </div>
